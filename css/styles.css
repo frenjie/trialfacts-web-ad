@@ -30,13 +30,13 @@ h3 {
 
 /* Equal spacing for all sections */
 section {
-  padding: 20px 0;
+  padding: 35px 0;
 }
 
 p {
   line-height: 1.7;
   color: #444;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 /* Sidebar */
@@ -60,7 +60,7 @@ p {
 }
 
 #about {
-  padding: 20px 0;
+  padding: 35px 0;
 }
 
 #about h3 {
@@ -76,16 +76,19 @@ p {
 .about-image {
   float: right;
   width: 230px;
-  max-height: 140px;
-  height: auto;
-  margin: 0 0 16px 24px;
-  border-radius: 4px;
+  height: 140px;
+  margin: 6px 0 16px 24px;
+  border-radius: 6px;
   object-fit: cover;
 }
 
 .about-section p {
   margin-bottom: 14px;
   line-height: 1.6;
+}
+
+.contents a:hover {
+  color: #E53935;
 }
 
 /* Clear float after section */
@@ -116,18 +119,21 @@ ul li {
 .cta-button {
   display: block;
   margin-top: 18px;
-  padding: 12px;
+  padding: 14px 18px;
   font-size: 16px;
+  font-weight: 500;
   background: #E53935;
   color: white;
   text-decoration: none;
   border-radius: 30px;
   text-align: center;
   white-space: nowrap;
+  transition: all 0.2s ease;
 }
 
 .cta-button:hover {
-    background: #c0392b;
+  background: #C62828;
+  transform: translateY(-1px);
 }
 
 /* Approval text centered */
