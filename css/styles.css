@@ -78,6 +78,18 @@ p {
   background: #C62828;
 }
 
+.cta-button {
+    display: block;
+    width: fit-content;
+    margin: 40px auto;
+    padding: 16px 40px;
+    font-size: 18px;
+    background: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 /* Hero */
 .hero {
   display: flex;
