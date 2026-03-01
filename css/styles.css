@@ -119,16 +119,14 @@ ul li {
 .cta-button {
   display: block;
   margin-top: 18px;
-  padding: 14px 18px;
+  padding: 12px;
   font-size: 16px;
-  font-weight: 500;
   background: #E53935;
   color: white;
   text-decoration: none;
   border-radius: 30px;
   text-align: center;
   white-space: nowrap;
-  transition: all 0.2s ease;
 }
 
 .cta-button:hover {
