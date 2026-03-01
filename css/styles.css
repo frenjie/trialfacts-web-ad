@@ -112,21 +112,6 @@ ul li {
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-.next-steps button {
-  background: #E53935;
-  color: white;
-  border: none;
-  padding: 12px;
-  border-radius: 30px;
-  width: 100%;
-  margin-top: 18px;
-  cursor: pointer;
-}
-
-.next-steps button:hover {
-  background: #C62828;
-}
-
 /* Fix CTA button margin inside sidebar card */
 .cta-button {
   display: block;
@@ -152,17 +137,6 @@ ul li {
   margin-top: 20px;
 }
 
-/* Hero */
-.hero {
-  display: flex;
-  gap: 40px;
-}
-
-.hero-image {
-    width: 100%;
-    border-radius: 6px;
-    margin: 25px 0 40px 0;
-}
 
 /* Blocks */
 .red-block {
@@ -219,11 +193,4 @@ ul li {
     left: 0;
   }
 
-  .hero {
-    flex-direction: column;
-  }
-
-  .hero img {
-    width: 100%;
-  }
 }
