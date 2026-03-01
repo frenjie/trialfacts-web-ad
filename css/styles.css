@@ -84,9 +84,10 @@ p {
   gap: 40px;
 }
 
-.hero img {
-  width: 340px;
-  border-radius: 10px;
+.hero-image {
+    width: 100%;
+    border-radius: 6px;
+    margin: 25px 0 40px 0;
 }
 
 /* Blocks */
