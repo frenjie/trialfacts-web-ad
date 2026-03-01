@@ -95,15 +95,20 @@ p {
 }
 
 .cta-button {
-    display: block;
-    width: fit-content;
+    display: inline-block;
     margin: 40px auto;
-    padding: 16px 40px;
+    padding: 14px 35px;
     font-size: 18px;
     background: #e74c3c;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 6px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.cta-button:hover {
+    background: #c0392b;
 }
 
 /* Hero */
