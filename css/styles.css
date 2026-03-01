@@ -30,7 +30,7 @@ h3 {
 
 /* Equal spacing for all sections */
 section {
-  padding: 35px 0;
+  padding: 25px 0;
 }
 
 p {
@@ -60,7 +60,7 @@ p {
 }
 
 #about {
-  padding: 35px 0;
+  padding: 25px 0;
 }
 
 #about h3 {
@@ -109,7 +109,7 @@ ul li {
 /* Card */
 .next-steps {
   background: white;
-  padding: 24px;
+  padding: 20px;
   margin-top: 35px;
   border-radius: 14px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);
@@ -119,15 +119,18 @@ ul li {
 .cta-button {
   display: block;
   margin-top: 18px;
-  padding: 12px;
+  padding: 14px 18px;
   font-size: 16px;
+  font-weight: 500;
   background: #E53935;
   color: white;
   text-decoration: none;
   border-radius: 30px;
   text-align: center;
   white-space: nowrap;
+  transition: all 0.2s ease;
 }
+
 
 .cta-button:hover {
   background: #C62828;
