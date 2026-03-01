@@ -21,11 +21,16 @@ h1 {
   margin-bottom: 30px;
 }
 
-h2 {
+/* Fix all section headings to use h3 consistently */
+h3 {
   font-size: 22px;
   font-weight: 600;
-  margin-top: 50px;
   margin-bottom: 15px;
+}
+
+/* Equal spacing for all sections */
+section {
+  padding: 40px 0;
 }
 
 p {
@@ -55,13 +60,13 @@ p {
 }
 
 #about {
-  padding: 40px 20px;
+  padding: 40px 0;
 }
 
 #about h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .about-section {
@@ -90,6 +95,14 @@ p {
   clear: both;
 }
 
+/* Fix bullet text color to match body text */
+ul li {
+  color: #444;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 6px;
+}
+
 /* Card */
 .next-steps {
   background: white;
@@ -114,21 +127,29 @@ p {
   background: #C62828;
 }
 
+/* Fix CTA button margin inside sidebar card */
 .cta-button {
-    display: inline-block;
-    margin: 40px auto;
-    padding: 14px 35px;
-    font-size: 18px;
-    background: #e74c3c;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    white-space: nowrap;
-    text-align: center;
+  display: block;
+  margin-top: 18px;
+  padding: 12px;
+  font-size: 16px;
+  background: #E53935;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .cta-button:hover {
     background: #c0392b;
+}
+
+/* Approval text centered */
+.approval {
+  text-align: center;
+  color: #444;
+  margin-top: 20px;
 }
 
 /* Hero */
