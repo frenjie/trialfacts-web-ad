@@ -71,7 +71,7 @@ p {
 .about-image {
   float: right;
   width: 250px;
-  max-height: 180px;
+  max-height: 150px;
   height: auto;
   margin: 0 0 16px 24px;
   border-radius: 4px;
