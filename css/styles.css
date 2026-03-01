@@ -54,20 +54,39 @@ p {
   font-weight: 600;
 }
 
+#about {
+  padding: 40px 20px;
+}
+
+#about h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
 .about-section {
-    display: flex;
-    gap: 25px;
-    align-items: flex-start;
-    margin-top: 15px;
+  max-width: 800px;
 }
 
 .about-image {
-    width: 280px;
-    border-radius: 6px;
+  float: right;
+  width: 280px;
+  height: auto;
+  margin: 0 0 16px 24px;
+  border-radius: 4px;
+  object-fit: cover;
 }
 
-.about-text {
-    flex: 1;
+.about-section p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+/* Clear float after section */
+.about-section::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Card */
