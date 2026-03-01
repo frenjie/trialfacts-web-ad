@@ -70,8 +70,8 @@ p {
 
 .about-image {
   float: right;
-  width: 250px;
-  max-height: 150px;
+  width: 230px;
+  max-height: 140px;
   height: auto;
   margin: 0 0 16px 24px;
   border-radius: 4px;
@@ -79,7 +79,7 @@ p {
 }
 
 .about-section p {
-  margin-bottom: 16px;
+  margin-bottom: 14px;
   line-height: 1.6;
 }
 
